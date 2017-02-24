@@ -1,14 +1,14 @@
 #jumbo {
-  background-image: url("../img/ping4.png");
-  background-position: center;
+  background-image: url("../img/ping.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #jumbo h1 {
-  color: brown;
+  color: purple;
   text-align: center;
   font-family: 'Press Start 2P', cursive;
+  font: 100px
 }
 
 #content {
