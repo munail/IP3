@@ -1,0 +1,14 @@
+h1.photo{
+text-align: center;
+text-decoration: underline;
+    background-position: center;
+    background-image: url(../img/ping.jpeg);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 100px;
+    align-content: center;
+    text-decoration-color: firebrick;
+}
+h2.header{
+    text-decoration-color: aqua;
+}
