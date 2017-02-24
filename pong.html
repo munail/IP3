@@ -1,41 +1,50 @@
+
 <html>
   <head>
     <meta charset="utf-8">
       <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
     <link href="css/style.css" rel="stylesheet" >
-    <script src="js/jquery-3.1.1.js"></script>
     <script src="js/script.js"></script>
     <title>Ping Pong</title>
   </head>
   <body>
+      <div id="jumbo" class="jumbotron">
+      <br><br>
+      <h1>Ping Pong</h1>
+    </div>
     <!-- Start of Header -->
-      <h1 class="photo">Ping Pong</h1>
-      <!.. END of the header>
-      <div class="container-fluid">
-      <div class="row">
-        <div id="sidebar" class="col-md-4">
-          
-          <img id="crab" src="img/ping-pong1.jpg">
-          <br><br><br><br><br><br>
-        </div>
         <div id="content" class="col-md-8">
-          <h2 class="header">Let's Play!!</h2>
-          <h3>Rules:</h3>
-            <p>
-                Ping Pong will count up to your number with the following exceptions:
-            
-            </p>
-            <ol>
-                <li>Numbers divisible by 3 become "ping"</li>
-                <li>Numbers divisible by 5 become "pong"</li>
-                <li>Numbers divisible by both 3 and 5 become "pingpong"</li>
-            </ol>
+          <h1>Let's Play!!</h1>
+          <h2>Rules:</h2>
+          <p>
+            Ping Pong will count up to your number with the following exceptions:
+          </p>
+          <ol>
+            <li>Numbers divisible by 3 become "ping"</li>
+            <li>Numbers divisible by 5 become "pong"</li>
+            <li>Numbers divisible by both 3 and 5 become "pingpong"</li>
+          </ol>
+          <form class="form-inline">
+              <p>LET START THE GAME!!</p>
+            <label>Enter your number here: </label>
+            <input id="input" class="form-control" type="text">
+            <button class="btn btn-default btn-lg">PONG PING</button>
+          </form>
+          <br><br><br><br><br><br>
+          <div>
+            <ul id="output">
+              </ul>
+            </div>
           </div>
-          </div>
-      </div>
-      <p> 
-    
-      </p>
-      
-    </body>
+        </div>
+    <div id="side" class="side">
+        <ol>
+            <li>CREATED by:<br>ZUU</li>
+            <li>GITHUB USER NAME:<br> MUnair</li>
+            <li>LEVEL 2:<br> TEST FOR JAVA</li>
+        <img src="img/ping.jpeg" width="300px" height="300px">
+        </ol>
+</div>
+</body>
+</html>

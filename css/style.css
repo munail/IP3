@@ -1,14 +1,66 @@
-h1.photo{
-text-align: center;
-text-decoration: underline;
-    background-position: center;
-    background-image: url(../img/ping.jpeg);
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 100px;
-    align-content: center;
-    text-decoration-color: firebrick;
+#jumbo {
+  background-image: url("../img/ping4.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-h2.header{
-    text-decoration-color: aqua;
+
+#jumbo h1 {
+  color: brown;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#content {
+  background-color: #000000;
+  height: auto;
+  float: right;
+    align-content: center;
+}
+
+#content h1{
+  color:#fff;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#content h2{
+  color:#fff;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#content p{
+  color:#fff;
+  font-family: 'Press Start 2P', cursive;
+}
+#content ol{
+  color:#fff;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#content ul{
+  color:#fff;
+  font-family: 'Press Start 2P', cursive;
+}
+
+label {
+  color:#fff;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#sidebar {
+  font-family: 'Press Start 2P', cursive;
+}
+
+#crab {
+  height: 400px;
+  width: 400px;
+}
+
+
+#side {
+    font-size: 15px;
+    font-family: cursive;
+    color: cyan;
+    background-color: gray;
+    
 }
