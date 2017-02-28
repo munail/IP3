@@ -1,4 +1,9 @@
 # IP3
+
+Authors: [MUNAIR](https://munail.github.io/IP3/)
+
+## Description
+
 This is a game created by Munair for Ping Pong
 #Specifications
 
@@ -37,4 +42,27 @@ This is a game created by Munair for Ping Pong
    *Example input:*
 
    *5*
+
+### Technologies Used
+* HTML
+* CSS
+* JavaScript
+*jqueary
+
+## Setup
+
+Make sure you have git installed. On the terminal, navigate to your workspace directory and run
+
+```bash
+$ git clone https://munail.github.io/IP3/
+```
+## Contributing
+
+We welcome pull requests
+
+## License
+
+This project is released under the [MIT License](./LICENSE.md)
+Add Comment Collapse
+   
 

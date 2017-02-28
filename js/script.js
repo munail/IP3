@@ -1,36 +1,33 @@
-
 //Business Logic
- var countUp = function(countTo){
-   var result = [];
-   for(var i = 1; i <= countTo; i++){
-       var index = result.indexOf(i);
-       if(i % 15 === 0) {
-         result.splice(index, 0);
-         result.push('pingpong');
-       }else if(i % 5 === 0) {
-         result.splice(index, 0);
-         result.push('pong');
-       }else if(i % 3 === 0) {
-         result.splice(index, 0);
-         result.push('ping');
-       }else{
-         result.push(i);
-       }
-   }
+var range = [];
 
-   return result; 
- };
- //User Interface Logic
-  $(document).ready(function(){
-    $("#userInput").submit(function(event){
-      $("#output").empty();
-      var countTo = parseInt($("input#countTo").val());
-       var output = countUp(countTo);
+function pingPong(userInput){
+	for(i= 1;i<= userInput;i++){
+		range.push(i);
+	}
 
-       output.forEach(function(item){
-  -      $("#output").append('<li class="listItem">' + item + '</li>');
-  +      $("#output").append('<li>' + item + '</li>');
-       });
-       event.preventDefault();
-     });
-     });
+	for(index=0;index<=range.length;index++){
+		if(range[index]%15 === 0) {
+			range.splice(index, 1, "pingpong");
+		} else if(range[index]%5 === 0) {
+			range.splice(index, 1, "pong");
+		} else if(range[index]%3 === 0) {
+			range.splice(index, 1, "ping");
+		};
+	};
+}
+
+//UI
+$(document).ready(function() {
+	$("form").submit(function(event){
+		event.preventDefault();
+		var userInput = $("#input").val();
+
+		pingPong(userInput);
+		for (i = 0; i<=range.length; i++){
+      	$("ul#output").append("<li >"+range[i]+"</li>");
+      }
+
+    var userInput = $("#input").val("");
+	});
+});
